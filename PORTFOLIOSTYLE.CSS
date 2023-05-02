@@ -1,0 +1,112 @@
+* {text-align: center;
+    margin: 0;
+    font-family:cursive;
+    color:white
+}
+html { margin: 0;   
+    background-image: url(back6.jpeg);
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+h1{color: rgb(245, 236, 236);
+    text-decoration: 1px overline dotted;
+    padding:10px 20px 20px 20px;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px rgb(43, 180, 146);
+font-size: 30 px;
+margin-top: 30px;
+}
+header{background-color: rgb(209, 209, 217); 
+padding:15px 15px 15px 15px}
+.flex-container{
+    display: flex;
+    background-color:hsla(0, 3%, 7%, 0.4);
+    color:rgb(255, 248, 248);
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 25PX;
+    padding-top: 5PX;
+    width:100%;
+ }
+    
+  .flex-container> div {
+    color:rgb(21, 20, 20);
+    background-color: hsla(0, 24%, 94%, 0.662);
+    margin: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 70%;
+    text-align: left;
+}
+h2{
+    text-decoration: underline;
+    color:black
+}
+h4{ text-decoration: underline;
+text-align: left;
+color:black}
+p{color: black;}
+table{ justify-content: center;
+margin: 2px;background-color: black;width:100%;}
+table>tr>th{
+    padding: 20px;
+padding-left: 20px;
+width:100%}
+
+.flex-container3{
+    display: flex;
+    background-color:hsla(0, 0%, 4%, 0.174);
+    color:rgb(255, 248, 248);
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 25PX;
+    padding-top: 5PX;
+    width:100%;
+ }
+    
+  .flex-container3> div {
+    color:rgb(243, 235, 235);
+    background-color: hsla(175, 64%, 73%, 0.571);
+    margin: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+    text-align: left;
+}
+.flex-container4{
+  display: flex;
+  background-color:hsla(180, 79%, 50%, 0.174);
+  color:rgb(255, 248, 248);
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-bottom: 25PX;
+  padding-top: 5PX;
+  width:100%;
+}
+  
+.flex-container4> div {
+  color:rgb(243, 235, 235);
+  background-color: hsla(0, 5%, 88%, 0.571);
+  margin: 10px;
+  font-size: 15px;
+  padding: 20px 20px 20px 20px;
+  width: 50%;
+  text-align: left;
+}
+    
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #286870;
+    border-radius: 7px;
+  }
+  .button:hover {
+    background-color: #334048;
+  }
+  h5{color:black}

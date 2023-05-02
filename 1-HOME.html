@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PAGE-1</title>
+        <link rel="stylesheet" href="HOMESTYLE.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <div class="header" id="text">
+            <h1 >TECH-LAB</h1>
+        </div>
+        <script type="text/javascript">
+            var i=0,text;
+            text="WELCOME TO TECH-LAB!"
+            function typing(){
+                if(i<text.length){
+                    document.getElementById("text").innerHTML +=text.charAt(i);
+                    i++;
+                    setTimeout(typing,50)
+                }
+            }
+        typing()
+        </script>
+        <div class="main">
+            <div class="navbar">
+                <ul>
+                    <li><a href="1-HOME.html">HOME</a></li>
+                    <li><a href="2-SERVICES.html">SERVICES</a></li>
+                    <li><a href="3-PORTFOLIO.html">PORTFOLIO</a></li>
+                    <li><a href="4-CONTACT US.html">QUERIES</a></li>
+                    <li><a href="5-LOGIN.html">LOGIN</a></li>
+                </ul>
+            </div>
+           </div>
+            <body>
+                <div class="flex-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                    <div>
+                        <h3>Web Applications</h3>
+                      <p>  We create state of the art web applications.
+                        With our extensive portfolio in web we have got you covered with cutting edge open source technologies and methodologies.</p>
+                    </div>
+                    <div><h3>Mobile Applications</h3>
+                        <p>Leveraging mobile technology to create solutions that go beyond developing apps. We have the right combination of strategists,
+                            engineers and designers to take your venture to success.</p>
+                    </div>
+                    <div>
+                       <h3> Cloud Computing</h3>
+                       <p>With extensive hands on experience we cater the needs to multiple software ventures through our extensive portfolio.
+                        We offer customized cloud solutions for streamlined business operations.</p>
+                    </div>
+                </div>
+            <hr>
+            <table  class="flex-container" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                <tr>
+                    <th><h2><b>ABOUT US</b></h2>
+                        <br>
+                        <br>
+                        We are a software development company that builds great teams to help businesses with their technology needs.
+                        Our teams are made up of experts who have built successful consumer applications.
+                        We offer a solution called Enterprise Portfolio Management that helps businesses organize their objectives and streamline their processes. 
+                        We take time to understand your needs and use the right technology to build the best solution for you.
+                        We have offices in the US, Canada, and Pakistan,
+                        and we're dedicated to delivering solutions that meet your unique business needs on time and within your budget.
+                    </th>
+                    <th>
+                        <img src="meeting2.jpg" alt="OFFICE ENVIRONMENT "style="width:525px;height:400px;position: relative;"
+    >
+                    </th>
+                </tr>
+            </table>
+            <hr>
+                <footer style="background-color: black;">
+                <h3>CONTACT US:</h3>
+                    <div class="flex-container2" >
+                        <div>
+                            <img src="location.png" style="border-radius: 50%;height:20px;width:25px">
+                            1121 ,Building abs,Paris
+                        </div>
+                        <div>
+                            <img src="mail.png" style="border-radius: 50%;height:20px;width:30px">
+                            Email us at:
+                            info@techlab.tech
+                        </div>
+                        <div>
+                       <img src="call.png" style="border-radius: 50%;height:20px;width:25px">
+                            Call us at: 090056565758
+                        </div>
+                        <div>
+                            Find us at:
+                           <a href=" www.techlab.tech" style="color:white; background-color: transparent;">wwww.techlab.tech</a>
+                        </div>
+                    </div>
+                <p style="font-size: 12px;">© 2023 All Rights Reserved - TECHLAB Systems Inc | Terms</p>
+            
+                </footer>
+
+                
+            </body>
+            <script>
+                AOS.init();
+            </script>
+            
+        </html>
